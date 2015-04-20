@@ -1,0 +1,24 @@
+{
+  "name": "ReadIt",
+  "version": "0.0.0",
+  "description": "Bookmarklet to read text selected in a browser",
+  "main": "readit-audio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skamble89/ReadIt.git"
+  },
+  "author": "Saurabh Kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skamble89/ReadIt/issues"
+  },
+  "homepage": "https://github.com/skamble89/ReadIt",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-concat": "^0.5.1"
+  }
+}
