@@ -28,7 +28,7 @@
                     });
 
                     document.body.appendChild(iframe);
-                    iframe.src = 'http://translate.google.com/translate_tts?ie=UTF-8&q=' + encodeURI(readText) + '&tl=en&total=1&idx=0&textlen=' + readText.length + '&prev=input';
+                    iframe.src = '//translate.google.com/translate_tts?ie=UTF-8&q=' + encodeURI(readText) + '&tl=en&total=1&idx=0&textlen=' + readText.length + '&prev=input';
                 }
             })(textArray.slice(index, index + readWords).join(' '))
         }
